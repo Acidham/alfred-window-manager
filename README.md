@@ -1,11 +1,15 @@
 # Alfred Window Manager
 Alfred Workflow to move/resize/position windows
 
+<img src="README.assets/win_manager.png" alt="win_manager" width=800 />
+
 ## Requirements
 
 * [Automation Tasks](https://www.alfredapp.com/help/workflows/automations/automation-task/)
 
 ## Usage
+
+Keyboard shortcuts are suggestions:
 
 *  ⇧↓ : Move to next screen
 *  ⇧↑ : Move to previous screen
