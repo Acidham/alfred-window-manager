@@ -259,6 +259,16 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>CED69719-04CB-480C-9DEC-CD201ADCA5C8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>D9985E7C-DCF8-4D3B-8FBC-0F7B70D3F973</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -503,6 +513,23 @@
 			<string>3204E945-B6BF-4265-AAA8-C6C25741884E</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>'{query}', {variables}</string>
+				<key>cleardebuggertext</key>
+				<false/>
+				<key>processoutputs</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.debug</string>
+			<key>uid</key>
+			<string>CED69719-04CB-480C-9DEC-CD201ADCA5C8</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1335,11 +1362,15 @@
 	<key>readme</key>
 	<string># Window Manager
 
+Alfred Workflow to move/resize/position windows
+
 ## Requirements
 
 * [Automation Tasks](https://www.alfredapp.com/help/workflows/automations/automation-task/)
 
 ## Usage
+
+Keyboard shortcuts below are suggestions:
 
 *  ⇧↓ : Move to next screen
 *  ⇧↑ : Move to previous screen
@@ -1574,6 +1605,13 @@
 			<key>ypos</key>
 			<real>1370</real>
 		</dict>
+		<key>CED69719-04CB-480C-9DEC-CD201ADCA5C8</key>
+		<dict>
+			<key>xpos</key>
+			<real>615</real>
+			<key>ypos</key>
+			<real>305</real>
+		</dict>
 		<key>CFAD3BF2-AB4B-4DA4-ADD9-3C68698ABA6E</key>
 		<dict>
 			<key>xpos</key>
@@ -1602,7 +1640,7 @@
 		<key>D5D03267-BC05-4901-A995-FF97DC4788D2</key>
 		<dict>
 			<key>xpos</key>
-			<real>395</real>
+			<real>390</real>
 			<key>ypos</key>
 			<real>405</real>
 		</dict>
@@ -1708,7 +1746,7 @@
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.1.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/Acidham/alfred-window-manager</string>
 </dict>

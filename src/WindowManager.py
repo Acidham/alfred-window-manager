@@ -66,13 +66,15 @@ class Dimensions(object):
         jsn.pop(app_id, False)
         self._save_json_file(jsn)
 
-    def _file_check(self, file: str) -> str:
-        if not os.path.exists(file):
-            with open(file, "w") as f:
-                pass
-        return file
-
     def _read_json_file(self) -> dict:
+        """
+        Read json file
+
+        Returns:
+
+            dict: json of the file
+
+        """
         jsn = dict()
         if os.path.exists(self.file):
             with open(self.file, "r") as f:
@@ -80,6 +82,14 @@ class Dimensions(object):
         return jsn
 
     def _save_json_file(self, jsn: dict) -> None:
+        """
+        Save the json to a file
+
+        Args:
+
+            jsn (dict): json with dimensions
+
+        """
         with open(self.file, "w") as f:
             f.seek(0)
             json.dump(jsn, f)
