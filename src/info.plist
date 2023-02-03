@@ -34,6 +34,59 @@
 				<false/>
 			</dict>
 		</array>
+		<key>19C17E3D-DA6F-4A35-9E9B-455BA4FD1031</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>561D6C7F-E66D-40EB-8814-4E275EED1214</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>A2DD67A8-6C3C-48EC-9497-B5FD00A9868C</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7CFADCC9-E898-4C75-9703-919B361362A6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>4918B6D8-F620-4FC2-A1FD-15DD8F7C5D0F</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>22201393-C9B4-4640-8A11-350343F16191</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>19C17E3D-DA6F-4A35-9E9B-455BA4FD1031</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>23D71A90-5EC3-4261-A130-EE34F4505EB5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EF549D57-A294-4ED5-B421-59B5F50B39DB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>3204E945-B6BF-4265-AAA8-C6C25741884E</key>
 		<array>
 			<dict>
@@ -64,7 +117,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>AC6D5BAC-92B8-4ECE-A42D-FCED1768CBCC</string>
+				<string>22201393-C9B4-4640-8A11-350343F16191</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -207,20 +260,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>ED2BA858-527C-44E5-9FF2-D9421C2F823C</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>AC6D5BAC-92B8-4ECE-A42D-FCED1768CBCC</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>0B235D11-0F2E-4EE8-8F4E-53F2BADC8258</string>
+				<string>D65BB2F2-21FE-475E-9598-B0503F6C828B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -255,11 +295,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>C57CE0D7-D6BB-49AC-83C0-7B26EF57644A</key>
+		<key>BA1C121D-CDD6-4C92-9A54-9BA8B582A69C</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>CED69719-04CB-480C-9DEC-CD201ADCA5C8</string>
+				<string>DFAB7703-E721-48C0-8903-E5FD4582B311</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -267,6 +307,9 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+		</array>
+		<key>C57CE0D7-D6BB-49AC-83C0-7B26EF57644A</key>
+		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>D9985E7C-DCF8-4D3B-8FBC-0F7B70D3F973</string>
@@ -330,11 +373,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>D65BB2F2-21FE-475E-9598-B0503F6C828B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ED2BA858-527C-44E5-9FF2-D9421C2F823C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>D9985E7C-DCF8-4D3B-8FBC-0F7B70D3F973</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>CFAD3BF2-AB4B-4DA4-ADD9-3C68698ABA6E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DFAB7703-E721-48C0-8903-E5FD4582B311</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F38BCC86-A1FD-4572-B86A-AD4A6F0BC981</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -369,11 +438,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>F9ED3B81-132C-4B76-AFED-DC01089EDD0D</key>
+		<key>EF549D57-A294-4ED5-B421-59B5F50B39DB</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>10499795-894B-44C4-9953-016F46E1135D</string>
+				<string>BA1C121D-CDD6-4C92-9A54-9BA8B582A69C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -381,9 +450,25 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+		</array>
+		<key>F38BCC86-A1FD-4572-B86A-AD4A6F0BC981</key>
+		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>CDB9929D-6132-44B6-96BD-A3FBF2A5EAD4</string>
+				<string>980F8228-5E0B-479A-819C-653F9F8B8DF5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F9ED3B81-132C-4B76-AFED-DC01089EDD0D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>10499795-894B-44C4-9953-016F46E1135D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -517,19 +602,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string>'{query}', {variables}</string>
-				<key>cleardebuggertext</key>
+				<key>concurrently</key>
 				<false/>
-				<key>processoutputs</key>
-				<true/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query=$1
+
+./save_dimensions.py $query</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.debug</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>CED69719-04CB-480C-9DEC-CD201ADCA5C8</string>
+			<string>D9985E7C-DCF8-4D3B-8FBC-0F7B70D3F973</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -616,31 +709,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>query=$1
-
-./save_dimensions.py $query</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>5</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>D9985E7C-DCF8-4D3B-8FBC-0F7B70D3F973</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
 				<string></string>
 				<key>passthroughargument</key>
@@ -713,19 +781,17 @@
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
-				<integer>3</integer>
-				<key>argumenttext</key>
-				<string>left</string>
+				<integer>0</integer>
 				<key>focusedappvariable</key>
 				<false/>
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>123</integer>
+				<integer>4</integer>
 				<key>hotmod</key>
-				<integer>11272192</integer>
+				<integer>786432</integer>
 				<key>hotstring</key>
-				<string>←</string>
+				<string>H</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -736,7 +802,7 @@
 			<key>type</key>
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
-			<string>D2302F7A-7011-4B69-995F-29395ABE636E</string>
+			<string>23D71A90-5EC3-4261-A130-EE34F4505EB5</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -750,7 +816,7 @@
 				<key>script</key>
 				<string>query=$1
 
-./window_pos.py $query</string>
+./save_dimensions.py $query</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -761,7 +827,7 @@
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>AC6D5BAC-92B8-4ECE-A42D-FCED1768CBCC</string>
+			<string>F38BCC86-A1FD-4572-B86A-AD4A6F0BC981</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -770,24 +836,119 @@
 			<dict>
 				<key>tasksettings</key>
 				<dict>
-					<key>height</key>
-					<string>{var:height}</string>
-					<key>width</key>
-					<string>{var:width}</string>
-					<key>x</key>
-					<string>{var:x}</string>
-					<key>y</key>
-					<string>{var:y}</string>
+					<key>out_format</key>
+					<string>bundle_id</string>
 				</dict>
 				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.custom</string>
+				<string>com.alfredapp.automation.core/macOS/app.current</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.automation.task</string>
 			<key>uid</key>
-			<string>0B235D11-0F2E-4EE8-8F4E-53F2BADC8258</string>
+			<string>EF549D57-A294-4ED5-B421-59B5F50B39DB</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>preset</key>
+					<string>twothirds-centrewidth</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.preset</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>980F8228-5E0B-479A-819C-653F9F8B8DF5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict/>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/window-management/windows.current.bounds</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>DFAB7703-E721-48C0-8903-E5FD4582B311</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>app_id</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>BA1C121D-CDD6-4C92-9A54-9BA8B582A69C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict/>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.preset</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>561D6C7F-E66D-40EB-8814-4E275EED1214</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>left</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>33</integer>
+				<key>hotmod</key>
+				<integer>786432</integer>
+				<key>hotstring</key>
+				<string>[</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>D2302F7A-7011-4B69-995F-29395ABE636E</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -819,6 +980,77 @@
 			<string>alfred.workflow.automation.task</string>
 			<key>uid</key>
 			<string>B112413B-7E57-4B10-8450-284C42B5E36F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query=$1
+
+./save_dimensions.py $query</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>22201393-C9B4-4640-8A11-350343F16191</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:direction}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>left</string>
+						<key>outputlabel</key>
+						<string>left</string>
+						<key>uid</key>
+						<string>A2DD67A8-6C3C-48EC-9497-B5FD00A9868C</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:direction}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>right</string>
+						<key>outputlabel</key>
+						<string>right</string>
+						<key>uid</key>
+						<string>4918B6D8-F620-4FC2-A1FD-15DD8F7C5D0F</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>19C17E3D-DA6F-4A35-9E9B-455BA4FD1031</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -876,11 +1108,11 @@
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>124</integer>
+				<integer>30</integer>
 				<key>hotmod</key>
-				<integer>11272192</integer>
+				<integer>786432</integer>
 				<key>hotstring</key>
-				<string>→</string>
+				<string>]</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -894,6 +1126,24 @@
 			<string>411DB4D7-6C73-4FA1-99A5-E2A2C8068D85</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>preset</key>
+					<string>half-right</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.preset</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>7CFADCC9-E898-4C75-9703-919B361362A6</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -923,7 +1173,7 @@
 				<key>script</key>
 				<string>query=$1
 
-./get_dimensions.py $query</string>
+./get_dimensions.py delete</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -950,11 +1200,11 @@
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>15</integer>
+				<integer>42</integer>
 				<key>hotmod</key>
 				<integer>786432</integer>
 				<key>hotstring</key>
-				<string>R</string>
+				<string>\</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -990,6 +1240,26 @@
 			<string>alfred.workflow.automation.task</string>
 			<key>uid</key>
 			<string>26D6E144-607A-492B-9D56-EE7349D443B4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>app_id</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>D65BB2F2-21FE-475E-9598-B0503F6C828B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1033,7 +1303,7 @@
 				<key>hotkey</key>
 				<integer>13</integer>
 				<key>hotmod</key>
-				<integer>655360</integer>
+				<integer>786432</integer>
 				<key>hotstring</key>
 				<string>W</string>
 				<key>leftcursor</key>
@@ -1113,23 +1383,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string>'{query}', {variables}</string>
-				<key>cleardebuggertext</key>
-				<false/>
-				<key>processoutputs</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.debug</string>
-			<key>uid</key>
-			<string>CDB9929D-6132-44B6-96BD-A3FBF2A5EAD4</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -1143,7 +1396,7 @@
 				<key>hotkey</key>
 				<integer>1</integer>
 				<key>hotmod</key>
-				<integer>655360</integer>
+				<integer>786432</integer>
 				<key>hotstring</key>
 				<string>S</string>
 				<key>leftcursor</key>
@@ -1176,7 +1429,7 @@
 				<key>hotkey</key>
 				<integer>2</integer>
 				<key>hotmod</key>
-				<integer>655360</integer>
+				<integer>786432</integer>
 				<key>hotstring</key>
 				<string>D</string>
 				<key>leftcursor</key>
@@ -1209,7 +1462,7 @@
 				<key>hotkey</key>
 				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>655360</integer>
+				<integer>786432</integer>
 				<key>hotstring</key>
 				<string>A</string>
 				<key>leftcursor</key>
@@ -1394,39 +1647,55 @@ Keyboard shortcuts below are suggestions:
 			<key>note</key>
 			<string>Scale up left side of the window</string>
 			<key>xpos</key>
-			<real>60</real>
+			<real>55</real>
 			<key>ypos</key>
-			<real>1695</real>
-		</dict>
-		<key>0B235D11-0F2E-4EE8-8F4E-53F2BADC8258</key>
-		<dict>
-			<key>xpos</key>
-			<real>1095</real>
-			<key>ypos</key>
-			<real>755</real>
+			<real>1815</real>
 		</dict>
 		<key>0FB4C25D-DC38-42C7-8070-516CE4943789</key>
 		<dict>
 			<key>note</key>
 			<string>Scale down window</string>
 			<key>xpos</key>
-			<real>60</real>
+			<real>55</real>
 			<key>ypos</key>
-			<real>1385</real>
+			<real>1505</real>
 		</dict>
 		<key>10499795-894B-44C4-9953-016F46E1135D</key>
 		<dict>
 			<key>xpos</key>
-			<real>880</real>
+			<real>840</real>
 			<key>ypos</key>
-			<real>1245</real>
+			<real>1365</real>
+		</dict>
+		<key>19C17E3D-DA6F-4A35-9E9B-455BA4FD1031</key>
+		<dict>
+			<key>xpos</key>
+			<real>1040</real>
+			<key>ypos</key>
+			<real>960</real>
+		</dict>
+		<key>22201393-C9B4-4640-8A11-350343F16191</key>
+		<dict>
+			<key>xpos</key>
+			<real>840</real>
+			<key>ypos</key>
+			<real>940</real>
+		</dict>
+		<key>23D71A90-5EC3-4261-A130-EE34F4505EB5</key>
+		<dict>
+			<key>note</key>
+			<string>Center Two Thirds</string>
+			<key>xpos</key>
+			<real>60</real>
+			<key>ypos</key>
+			<real>675</real>
 		</dict>
 		<key>26D6E144-607A-492B-9D56-EE7349D443B4</key>
 		<dict>
 			<key>xpos</key>
-			<real>640</real>
+			<real>840</real>
 			<key>ypos</key>
-			<real>990</real>
+			<real>1175</real>
 		</dict>
 		<key>3204E945-B6BF-4265-AAA8-C6C25741884E</key>
 		<dict>
@@ -1442,16 +1711,16 @@ Keyboard shortcuts below are suggestions:
 		<key>3411AFF0-2041-4E95-B451-45847D3EFE3E</key>
 		<dict>
 			<key>xpos</key>
-			<real>405</real>
+			<real>400</real>
 			<key>ypos</key>
-			<real>1245</real>
+			<real>1365</real>
 		</dict>
 		<key>34BFA0E9-B1E3-4F31-B594-AAEED8A8299D</key>
 		<dict>
 			<key>xpos</key>
-			<real>645</real>
+			<real>640</real>
 			<key>ypos</key>
-			<real>755</real>
+			<real>940</real>
 		</dict>
 		<key>38151F7B-8008-4180-B4E4-9C5D423C5066</key>
 		<dict>
@@ -1469,9 +1738,9 @@ Keyboard shortcuts below are suggestions:
 			<key>note</key>
 			<string>Window to the right screen</string>
 			<key>xpos</key>
-			<real>60</real>
+			<real>55</real>
 			<key>ypos</key>
-			<real>830</real>
+			<real>1015</real>
 		</dict>
 		<key>4F266713-42A1-460C-B59D-AA7839398302</key>
 		<dict>
@@ -1479,6 +1748,13 @@ Keyboard shortcuts below are suggestions:
 			<real>245</real>
 			<key>ypos</key>
 			<real>375</real>
+		</dict>
+		<key>561D6C7F-E66D-40EB-8814-4E275EED1214</key>
+		<dict>
+			<key>xpos</key>
+			<real>1165</real>
+			<key>ypos</key>
+			<real>835</real>
 		</dict>
 		<key>5E6F5E3B-B9CB-449B-9724-E4E8B4F45CC1</key>
 		<dict>
@@ -1501,27 +1777,27 @@ Keyboard shortcuts below are suggestions:
 		<key>69CEBDAD-0632-4A61-9233-9F35F7E9F02C</key>
 		<dict>
 			<key>xpos</key>
-			<real>315</real>
+			<real>310</real>
 			<key>ypos</key>
-			<real>1275</real>
+			<real>1395</real>
 		</dict>
 		<key>7903F372-2DC3-488B-9D7F-E575C0C1DFFE</key>
 		<dict>
 			<key>note</key>
 			<string>Move window left</string>
 			<key>xpos</key>
-			<real>60</real>
+			<real>55</real>
 			<key>ypos</key>
-			<real>1845</real>
+			<real>1970</real>
 		</dict>
 		<key>7AB06038-BFF3-4C09-87A1-2558A032D37A</key>
 		<dict>
 			<key>note</key>
 			<string>Move window right</string>
 			<key>xpos</key>
-			<real>60</real>
+			<real>55</real>
 			<key>ypos</key>
-			<real>1980</real>
+			<real>2100</real>
 		</dict>
 		<key>7AE7B102-6F0E-4086-A929-4CBC0F8F230F</key>
 		<dict>
@@ -1530,18 +1806,25 @@ Keyboard shortcuts below are suggestions:
 			<key>note</key>
 			<string>Reset Window</string>
 			<key>xpos</key>
-			<real>60</real>
+			<real>55</real>
 			<key>ypos</key>
-			<real>990</real>
+			<real>1175</real>
+		</dict>
+		<key>7CFADCC9-E898-4C75-9703-919B361362A6</key>
+		<dict>
+			<key>xpos</key>
+			<real>1170</real>
+			<key>ypos</key>
+			<real>1015</real>
 		</dict>
 		<key>7FBAFD3E-D7E8-4F5E-B79C-08BAE6819634</key>
 		<dict>
 			<key>note</key>
 			<string>Move window up</string>
 			<key>xpos</key>
-			<real>60</real>
+			<real>50</real>
 			<key>ypos</key>
-			<real>2135</real>
+			<real>2230</real>
 		</dict>
 		<key>888A02A3-2C70-4D4A-A926-A4954E8E9BD5</key>
 		<dict>
@@ -1555,32 +1838,37 @@ Keyboard shortcuts below are suggestions:
 		<key>951B4211-41AD-4138-967E-9C35F483E46F</key>
 		<dict>
 			<key>xpos</key>
-			<real>255</real>
+			<real>410</real>
 			<key>ypos</key>
-			<real>990</real>
+			<real>1175</real>
 		</dict>
-		<key>AC6D5BAC-92B8-4ECE-A42D-FCED1768CBCC</key>
+		<key>980F8228-5E0B-479A-819C-653F9F8B8DF5</key>
 		<dict>
-			<key>note</key>
-			<string>Save dimensions</string>
 			<key>xpos</key>
-			<real>875</real>
+			<real>825</real>
 			<key>ypos</key>
-			<real>755</real>
+			<real>675</real>
 		</dict>
 		<key>B112413B-7E57-4B10-8450-284C42B5E36F</key>
 		<dict>
 			<key>xpos</key>
-			<real>420</real>
+			<real>415</real>
 			<key>ypos</key>
-			<real>755</real>
+			<real>940</real>
 		</dict>
 		<key>B269FAEA-BEC7-42B2-8575-605D0C2C09EC</key>
 		<dict>
 			<key>xpos</key>
-			<real>570</real>
+			<real>565</real>
 			<key>ypos</key>
-			<real>785</real>
+			<real>970</real>
+		</dict>
+		<key>BA1C121D-CDD6-4C92-9A54-9BA8B582A69C</key>
+		<dict>
+			<key>xpos</key>
+			<real>390</real>
+			<key>ypos</key>
+			<real>705</real>
 		</dict>
 		<key>C57CE0D7-D6BB-49AC-83C0-7B26EF57644A</key>
 		<dict>
@@ -1594,23 +1882,9 @@ Keyboard shortcuts below are suggestions:
 			<key>note</key>
 			<string>Scale up right side of the window</string>
 			<key>xpos</key>
-			<real>60</real>
+			<real>55</real>
 			<key>ypos</key>
-			<real>1540</real>
-		</dict>
-		<key>CDB9929D-6132-44B6-96BD-A3FBF2A5EAD4</key>
-		<dict>
-			<key>xpos</key>
-			<real>815</real>
-			<key>ypos</key>
-			<real>1370</real>
-		</dict>
-		<key>CED69719-04CB-480C-9DEC-CD201ADCA5C8</key>
-		<dict>
-			<key>xpos</key>
-			<real>615</real>
-			<key>ypos</key>
-			<real>305</real>
+			<real>1660</real>
 		</dict>
 		<key>CFAD3BF2-AB4B-4DA4-ADD9-3C68698ABA6E</key>
 		<dict>
@@ -1622,9 +1896,9 @@ Keyboard shortcuts below are suggestions:
 		<key>D0BA191C-A3CE-4974-A263-B9979376FFEF</key>
 		<dict>
 			<key>xpos</key>
-			<real>335</real>
+			<real>330</real>
 			<key>ypos</key>
-			<real>785</real>
+			<real>970</real>
 		</dict>
 		<key>D2302F7A-7011-4B69-995F-29395ABE636E</key>
 		<dict>
@@ -1633,9 +1907,9 @@ Keyboard shortcuts below are suggestions:
 			<key>note</key>
 			<string>Window to the left screen</string>
 			<key>xpos</key>
-			<real>60</real>
+			<real>55</real>
 			<key>ypos</key>
-			<real>695</real>
+			<real>880</real>
 		</dict>
 		<key>D5D03267-BC05-4901-A995-FF97DC4788D2</key>
 		<dict>
@@ -1644,6 +1918,13 @@ Keyboard shortcuts below are suggestions:
 			<key>ypos</key>
 			<real>405</real>
 		</dict>
+		<key>D65BB2F2-21FE-475E-9598-B0503F6C828B</key>
+		<dict>
+			<key>xpos</key>
+			<real>560</real>
+			<key>ypos</key>
+			<real>1205</real>
+		</dict>
 		<key>D9985E7C-DCF8-4D3B-8FBC-0F7B70D3F973</key>
 		<dict>
 			<key>xpos</key>
@@ -1651,14 +1932,21 @@ Keyboard shortcuts below are suggestions:
 			<key>ypos</key>
 			<real>375</real>
 		</dict>
+		<key>DFAB7703-E721-48C0-8903-E5FD4582B311</key>
+		<dict>
+			<key>xpos</key>
+			<real>480</real>
+			<key>ypos</key>
+			<real>675</real>
+		</dict>
 		<key>E71F89BE-1869-4DAF-BCDD-CA883A26CECF</key>
 		<dict>
 			<key>note</key>
 			<string>Move window down</string>
 			<key>xpos</key>
-			<real>60</real>
+			<real>50</real>
 			<key>ypos</key>
-			<real>2255</real>
+			<real>2365</real>
 		</dict>
 		<key>E90EB173-3B7E-4C6C-B148-E83B370D1154</key>
 		<dict>
@@ -1670,9 +1958,9 @@ Keyboard shortcuts below are suggestions:
 		<key>ED2BA858-527C-44E5-9FF2-D9421C2F823C</key>
 		<dict>
 			<key>xpos</key>
-			<real>425</real>
+			<real>635</real>
 			<key>ypos</key>
-			<real>990</real>
+			<real>1175</real>
 		</dict>
 		<key>EEB61DAA-AC41-493F-9CA0-93678C6BCD3B</key>
 		<dict>
@@ -1681,21 +1969,35 @@ Keyboard shortcuts below are suggestions:
 			<key>ypos</key>
 			<real>195</real>
 		</dict>
+		<key>EF549D57-A294-4ED5-B421-59B5F50B39DB</key>
+		<dict>
+			<key>xpos</key>
+			<real>245</real>
+			<key>ypos</key>
+			<real>675</real>
+		</dict>
+		<key>F38BCC86-A1FD-4572-B86A-AD4A6F0BC981</key>
+		<dict>
+			<key>xpos</key>
+			<real>665</real>
+			<key>ypos</key>
+			<real>675</real>
+		</dict>
 		<key>F9ED3B81-132C-4B76-AFED-DC01089EDD0D</key>
 		<dict>
 			<key>xpos</key>
-			<real>605</real>
+			<real>600</real>
 			<key>ypos</key>
-			<real>1245</real>
+			<real>1365</real>
 		</dict>
 		<key>FE582004-9AD4-40DD-AB0B-13BEABC1B505</key>
 		<dict>
 			<key>note</key>
 			<string>Scale up window</string>
 			<key>xpos</key>
-			<real>60</real>
+			<real>55</real>
 			<key>ypos</key>
-			<real>1245</real>
+			<real>1365</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -1746,7 +2048,7 @@ Keyboard shortcuts below are suggestions:
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.1.0</string>
+	<string>1.1.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/Acidham/alfred-window-manager</string>
 </dict>

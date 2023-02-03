@@ -15,9 +15,15 @@ class Dimensions(object):
             file (str): path to .json
 
         """
-        self.file = file
+        self.file = self._check_file(file)
 
-    def add_dimension(self, app_id: str, dim: dict) -> None:
+    def _check_file(self, file):
+        if not os.path.exists(file):
+            with open(file, "w") as f:
+                json.dump({}, f)
+        return file
+
+    def add_dimension(self, app_id: str, dim: dict, prev_action: str = '') -> None:
         """
         Add dimension app setting
 
@@ -32,10 +38,11 @@ class Dimensions(object):
             with open(self.file, "r") as f:
                 jsn: dict = json.load(f)
             jsn.pop(app_id, False)
+        dim.update({'prev_action': prev_action})
         jsn[app_id] = dim
         self._save_json_file(jsn)
 
-    def get_dimension(self, app_id: str) -> dict:
+    def get_dimension(self, app_id: str, delete: bool = False) -> dict:
         """
         get dimension for an app id
 
@@ -50,7 +57,9 @@ class Dimensions(object):
 
         """
         jsn = self._read_json_file()
-        dimension = jsn.get(app_id, None)
+        dimension = jsn.get(app_id, {})
+        if delete:
+            self.delete_dimension(app_id)
         return dimension
 
     def delete_dimension(self, app_id: str) -> None:
