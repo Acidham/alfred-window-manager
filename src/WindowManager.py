@@ -111,18 +111,58 @@ class Window(object):
         self.dimension = json.loads(dim)
 
     def x_pos(self) -> int:
+        """
+        Get x position of the window from a str represenation of a dimension
+
+        Returns:
+
+            int: x postition
+
+        """
         return int(self.dimension.get('x', None))
 
     def y_pos(self) -> int:
+        """
+        Get y position of the window from a str represenation of a dimension
+
+        Returns:
+
+            int: y postition
+
+        """
         return int(self.dimension.get('y', None))
 
     def width(self) -> int:
+        """
+        Get width of the window from a str represenation of a dimension
+
+        Returns:
+
+            int: window width
+
+        """
         return int(self.dimension.get('width', None))
 
     def height(self) -> int:
+        """
+        Get height of the window from a str represenation of a dimension
+
+        Returns:
+
+            int: window height
+
+        """
         return int(self.dimension.get('height', None))
 
     def get_dimensions(self) -> dict:
+        """
+        Get dimension from dimension provided as string
+
+        Returns:
+
+            int: dimension
+
+        """
         return self.dimension
 
 
@@ -132,9 +172,25 @@ class Screen(object):
         self.screen_res = self._sys_profiler()
 
     def screen_width(self) -> int:
+        """
+        Get screen width
+
+        Returns:
+
+            int: screen width
+
+        """
         return self.screen_res[0]
 
     def screen_height(self) -> int:
+        """
+        Get Screen height
+
+        Returns:
+
+            int: screen height
+
+        """
         return self.screen_res[1]
 
     def _sys_profiler(self) -> tuple:
