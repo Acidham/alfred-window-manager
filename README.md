@@ -1,5 +1,7 @@
 # Alfred Window Manager
-Alfred Workflow to move/resize/position windows
+Alfred Workflow to move/resize/position windows. 
+
+**For actions like Left/Right Position, Maximize, and Center Two Thirds, the workflow saves the Window state so that you can restore it at any time.**
 
 <img src="README.assets/win_manager.png" alt="win_manager" width=800 />
 
