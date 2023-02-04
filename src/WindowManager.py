@@ -59,7 +59,9 @@ class Dimensions(object):
         jsn = self._read_json_file()
         dimension = jsn.get(app_id, {})
         if delete:
-            self.delete_dimension(app_id)
+            # self.delete_dimension(app_id)
+            dimension['prev_action'] = ""
+            self.add_dimension(app_id, dimension)
         return dimension
 
     def delete_dimension(self, app_id: str) -> None:

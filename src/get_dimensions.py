@@ -14,7 +14,7 @@ post_action = Tools.getArgv(1)  # post action e.g 'delete' from prev step
 delete_entry = True if post_action == 'delete' else False
 
 Dim = Dimensions(cache_file)
-# read dimensionsn and deltet the entry when post action == delete
+# read dimensionsn and delte the entry when post action == delete
 vars = Dim.get_dimension(app_id, delete=delete_entry)
 
 if vars == None or vars == {}:
