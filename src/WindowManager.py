@@ -17,13 +17,27 @@ class Dimensions(object):
         """
         self.file = self._check_file(file)
 
-    def _check_file(self, file):
+    def _check_file(self, file: str) -> str:
+        """
+        check if file exists, if not existent create an empty dimension.json
+
+        Args:
+
+            file (str): path of the fle
+
+
+        Returns:
+
+            str: path to the file
+
+        """
+
         if not os.path.exists(file):
             with open(file, "w") as f:
-                json.dump({}, f)
+                json.dump({}, f, indent=4)
         return file
 
-    def add_dimension(self, app_id: str, dim: dict, prev_action: str = '') -> None:
+    def save_dimension(self, app_id: str, dim: dict, prev_action: str = '') -> None:
         """
         Add dimension app setting
 
@@ -42,26 +56,28 @@ class Dimensions(object):
         jsn[app_id] = dim
         self._save_json_file(jsn)
 
-    def get_dimension(self, app_id: str, delete: bool = False) -> dict:
+    def get_dimension(self, app_id: str, reset: bool = False) -> dict:
         """
-        get dimension for an app id
+        Get dimension object from app id
 
         Args:
 
-            app_id (str): app bundle id
+            app_id (str): App ID
+
+
+            reset (bool, optional): reset previous actions. Defaults to False.
 
 
         Returns:
 
-            dict: _description_
+            dict: window dimension dictionary
 
         """
         jsn = self._read_json_file()
         dimension = jsn.get(app_id, {})
-        if delete:
-            # self.delete_dimension(app_id)
-            dimension['prev_action'] = ""
-            self.add_dimension(app_id, dimension)
+        if reset:
+            # reset prev_action by setting empty string to prev_action
+            self.save_dimension(app_id, dimension, prev_action='')
         return dimension
 
     def delete_dimension(self, app_id: str) -> None:
@@ -70,7 +86,7 @@ class Dimensions(object):
 
         Args:
 
-            app_id (str): _description_
+            app_id (str): App Bundle ID
 
         """
         jsn = self._read_json_file()
@@ -103,7 +119,7 @@ class Dimensions(object):
         """
         with open(self.file, "w") as f:
             f.seek(0)
-            json.dump(jsn, f)
+            json.dump(jsn, f, indent=4)
             f.truncate()
 
 
@@ -196,6 +212,14 @@ class Screen(object):
         return self.screen_res[1]
 
     def _sys_profiler(self) -> tuple:
+        """
+        Get tuble with widht and height of the screen resolution
+
+        Returns:
+
+            tuple: width and heigt
+
+        """
         sysinfo: dict = json.loads(os.popen("system_profiler SPDisplaysDataType -json").read())
         screen_dimensions = sysinfo.get('SPDisplaysDataType')[0].get('spdisplays_ndrvs')[0].get('_spdisplays_resolution')
         res, freq = screen_dimensions.split(" @ ")

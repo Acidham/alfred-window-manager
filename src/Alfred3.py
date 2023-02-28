@@ -428,7 +428,7 @@ class Tools(object):
     @staticmethod
     def getCacheDir() -> str:
         cache_dir = os.getenv("alfred_workflow_cache")
-        if not(os.path.isdir(cache_dir)):
+        if not (os.path.isdir(cache_dir)):
             os.mkdir(cache_dir)
         return cache_dir
 

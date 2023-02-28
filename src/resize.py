@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 
-import json
-import sys
-
 from Alfred3 import AlfJson, Tools
 from WindowManager import Window
 
@@ -42,7 +39,13 @@ if direction == "up":
 if direction == "down":
     y = y+move_steps
 
-vars = {"x": x, "y": y, "width": width, "height": height}
+vars = {
+    "x": x,
+    "y": y,
+    "width": width,
+    "height": height
+}
+
 
 aj = AlfJson()
 aj.add_variables(vars)
