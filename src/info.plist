@@ -8,6 +8,19 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
+		<key>03D2723C-1773-462E-A0E3-4F9B79BF872B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D0BA191C-A3CE-4974-A263-B9979376FFEF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>0AA55BB7-9F32-4DA6-8F55-DAD10CF532FF</key>
 		<array>
 			<dict>
@@ -130,6 +143,30 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>324960E7-46BB-4010-8E10-4042EEC0BD58</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C979B2FE-F00D-4D28-A18B-93715B910C9D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>533FB3FC-5B4B-4CF0-8585-3F5D689269D9</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0D1E46BB-6FEB-4A8F-8747-0A73805CF22D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>2ECE457B-BBC9-4CCE-9E08-D2D21E24A5EE</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -330,6 +367,19 @@
 			</dict>
 		</array>
 		<key>888A02A3-2C70-4D4A-A926-A4954E8E9BD5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D0BA191C-A3CE-4974-A263-B9979376FFEF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8BF84999-E5A9-432C-914A-49ECF6A4582B</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -847,6 +897,34 @@
 						<key>uid</key>
 						<string>324960E7-46BB-4010-8E10-4042EEC0BD58</string>
 					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:direction}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>top_half</string>
+						<key>outputlabel</key>
+						<string>top_half</string>
+						<key>uid</key>
+						<string>533FB3FC-5B4B-4CF0-8585-3F5D689269D9</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:direction}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>bottom_half</string>
+						<key>outputlabel</key>
+						<string>bottom_half</string>
+						<key>uid</key>
+						<string>2ECE457B-BBC9-4CCE-9E08-D2D21E24A5EE</string>
+					</dict>
 				</array>
 				<key>elselabel</key>
 				<string>else</string>
@@ -1157,6 +1235,108 @@
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>370D3E78-9C67-4250-BADB-839BD58546F7</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>preset</key>
+					<string>half-top</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.preset</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>C979B2FE-F00D-4D28-A18B-93715B910C9D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>bottom_half</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>11</integer>
+				<key>hotmod</key>
+				<integer>786432</integer>
+				<key>hotstring</key>
+				<string>B</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>03D2723C-1773-462E-A0E3-4F9B79BF872B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>preset</key>
+					<string>half-bottom</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.preset</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>0D1E46BB-6FEB-4A8F-8747-0A73805CF22D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>top_half</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>17</integer>
+				<key>hotmod</key>
+				<integer>786432</integer>
+				<key>hotstring</key>
+				<string>T</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>8BF84999-E5A9-432C-914A-49ECF6A4582B</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1687,13 +1867,21 @@ Alfred Workflow to move/resize/position windows
 
 Keyboard shortcuts below are suggestions:
 
+*  ^⌥[ : Move window to the left screen
+*  ^⌥] : Move window to the right screen
+*  ^⌥H : Center Two Thirds
+*  ^⌥M : Maximize
+*  ^⌥1 : Left third
+*  ^⌥2 : Center third
+*  ^⌥3 : Right Third
+*  ^⌥T : Top Half
+*  ^⌥B : Bottom Half
 *  ⇧↓ : Move to next screen
 *  ⇧↑ : Move to previous screen
-*  ^⌥M : Maximize
 *  ^⌥C : Center Window
 *  ^⌥← : Window to the left screen
 *  ^⌥→ : Window to the right screen
-*  ⌃⌥R : Reset Window
+*  ⌃⌥\ : Reset Window
 *  ⇧⌥W : Scale up window
 *  ⇧⌥S : Scale down window
 *  ⇧⌥D : Scale up right side of the window
@@ -1704,6 +1892,17 @@ Keyboard shortcuts below are suggestions:
 *  ⌥ S : Move window down</string>
 	<key>uidata</key>
 	<dict>
+		<key>03D2723C-1773-462E-A0E3-4F9B79BF872B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>Bottom Half</string>
+			<key>xpos</key>
+			<real>70</real>
+			<key>ypos</key>
+			<real>1475</real>
+		</dict>
 		<key>0AA55BB7-9F32-4DA6-8F55-DAD10CF532FF</key>
 		<dict>
 			<key>colorindex</key>
@@ -1711,9 +1910,18 @@ Keyboard shortcuts below are suggestions:
 			<key>note</key>
 			<string>Scale up left side of the window</string>
 			<key>xpos</key>
-			<real>65</real>
+			<real>70</real>
 			<key>ypos</key>
-			<real>2580</real>
+			<real>2835</real>
+		</dict>
+		<key>0D1E46BB-6FEB-4A8F-8747-0A73805CF22D</key>
+		<dict>
+			<key>note</key>
+			<string>Bottom Half</string>
+			<key>xpos</key>
+			<real>1285</real>
+			<key>ypos</key>
+			<real>1585</real>
 		</dict>
 		<key>0FB4C25D-DC38-42C7-8070-516CE4943789</key>
 		<dict>
@@ -1722,18 +1930,18 @@ Keyboard shortcuts below are suggestions:
 			<key>note</key>
 			<string>Scale down window</string>
 			<key>xpos</key>
-			<real>65</real>
+			<real>70</real>
 			<key>ypos</key>
-			<real>2250</real>
+			<real>2505</real>
 		</dict>
 		<key>10499795-894B-44C4-9953-016F46E1135D</key>
 		<dict>
 			<key>note</key>
 			<string>Scale</string>
 			<key>xpos</key>
-			<real>1285</real>
+			<real>1290</real>
 			<key>ypos</key>
-			<real>2110</real>
+			<real>2365</real>
 		</dict>
 		<key>15794641-8D20-4191-854F-39FEFE6B4106</key>
 		<dict>
@@ -1776,9 +1984,9 @@ Keyboard shortcuts below are suggestions:
 			<key>note</key>
 			<string>Reset</string>
 			<key>xpos</key>
-			<real>1280</real>
+			<real>1285</real>
 			<key>ypos</key>
-			<real>1800</real>
+			<real>2055</real>
 		</dict>
 		<key>27579C3A-5704-4D88-947A-2036510ADD3F</key>
 		<dict>
@@ -1814,9 +2022,9 @@ Keyboard shortcuts below are suggestions:
 		<key>3411AFF0-2041-4E95-B451-45847D3EFE3E</key>
 		<dict>
 			<key>xpos</key>
-			<real>435</real>
+			<real>440</real>
 			<key>ypos</key>
-			<real>2110</real>
+			<real>2365</real>
 		</dict>
 		<key>34BFA0E9-B1E3-4F31-B594-AAEED8A8299D</key>
 		<dict>
@@ -1843,9 +2051,9 @@ Keyboard shortcuts below are suggestions:
 			<key>note</key>
 			<string>Center Window</string>
 			<key>xpos</key>
-			<real>65</real>
+			<real>70</real>
 			<key>ypos</key>
-			<real>1570</real>
+			<real>1825</real>
 		</dict>
 		<key>411DB4D7-6C73-4FA1-99A5-E2A2C8068D85</key>
 		<dict>
@@ -1897,9 +2105,9 @@ Keyboard shortcuts below are suggestions:
 		<key>69CEBDAD-0632-4A61-9233-9F35F7E9F02C</key>
 		<dict>
 			<key>xpos</key>
-			<real>295</real>
+			<real>300</real>
 			<key>ypos</key>
-			<real>2140</real>
+			<real>2395</real>
 		</dict>
 		<key>7903F372-2DC3-488B-9D7F-E575C0C1DFFE</key>
 		<dict>
@@ -1908,9 +2116,9 @@ Keyboard shortcuts below are suggestions:
 			<key>note</key>
 			<string>Move window left</string>
 			<key>xpos</key>
-			<real>65</real>
+			<real>70</real>
 			<key>ypos</key>
-			<real>2760</real>
+			<real>3015</real>
 		</dict>
 		<key>7AB06038-BFF3-4C09-87A1-2558A032D37A</key>
 		<dict>
@@ -1919,9 +2127,9 @@ Keyboard shortcuts below are suggestions:
 			<key>note</key>
 			<string>Move window right</string>
 			<key>xpos</key>
-			<real>65</real>
+			<real>70</real>
 			<key>ypos</key>
-			<real>2920</real>
+			<real>3175</real>
 		</dict>
 		<key>7AE7B102-6F0E-4086-A929-4CBC0F8F230F</key>
 		<dict>
@@ -1930,9 +2138,9 @@ Keyboard shortcuts below are suggestions:
 			<key>note</key>
 			<string>Reset Window</string>
 			<key>xpos</key>
-			<real>65</real>
+			<real>70</real>
 			<key>ypos</key>
-			<real>1800</real>
+			<real>2055</real>
 		</dict>
 		<key>7CFADCC9-E898-4C75-9703-919B361362A6</key>
 		<dict>
@@ -1950,9 +2158,9 @@ Keyboard shortcuts below are suggestions:
 			<key>note</key>
 			<string>Move window up</string>
 			<key>xpos</key>
-			<real>65</real>
+			<real>70</real>
 			<key>ypos</key>
-			<real>3080</real>
+			<real>3335</real>
 		</dict>
 		<key>888A02A3-2C70-4D4A-A926-A4954E8E9BD5</key>
 		<dict>
@@ -1964,6 +2172,17 @@ Keyboard shortcuts below are suggestions:
 			<real>65</real>
 			<key>ypos</key>
 			<real>900</real>
+		</dict>
+		<key>8BF84999-E5A9-432C-914A-49ECF6A4582B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>Top Half</string>
+			<key>xpos</key>
+			<real>70</real>
+			<key>ypos</key>
+			<real>1610</real>
 		</dict>
 		<key>8D92843D-8E75-4B98-86C8-162FA0D973B2</key>
 		<dict>
@@ -1977,9 +2196,9 @@ Keyboard shortcuts below are suggestions:
 		<key>951B4211-41AD-4138-967E-9C35F483E46F</key>
 		<dict>
 			<key>xpos</key>
-			<real>435</real>
+			<real>440</real>
 			<key>ypos</key>
-			<real>1800</real>
+			<real>2055</real>
 		</dict>
 		<key>980F8228-5E0B-479A-819C-653F9F8B8DF5</key>
 		<dict>
@@ -2011,9 +2230,18 @@ Keyboard shortcuts below are suggestions:
 			<key>note</key>
 			<string>Scale up right side of the window</string>
 			<key>xpos</key>
-			<real>65</real>
+			<real>70</real>
 			<key>ypos</key>
-			<real>2405</real>
+			<real>2660</real>
+		</dict>
+		<key>C979B2FE-F00D-4D28-A18B-93715B910C9D</key>
+		<dict>
+			<key>note</key>
+			<string>Top Half</string>
+			<key>xpos</key>
+			<real>1285</real>
+			<key>ypos</key>
+			<real>1435</real>
 		</dict>
 		<key>CFAD3BF2-AB4B-4DA4-ADD9-3C68698ABA6E</key>
 		<dict>
@@ -2045,9 +2273,9 @@ Keyboard shortcuts below are suggestions:
 		<key>D65BB2F2-21FE-475E-9598-B0503F6C828B</key>
 		<dict>
 			<key>xpos</key>
-			<real>670</real>
+			<real>675</real>
 			<key>ypos</key>
-			<real>1830</real>
+			<real>2085</real>
 		</dict>
 		<key>E71F89BE-1869-4DAF-BCDD-CA883A26CECF</key>
 		<dict>
@@ -2056,25 +2284,25 @@ Keyboard shortcuts below are suggestions:
 			<key>note</key>
 			<string>Move window down</string>
 			<key>xpos</key>
-			<real>65</real>
+			<real>70</real>
 			<key>ypos</key>
-			<real>3235</real>
+			<real>3490</real>
 		</dict>
 		<key>E90EB173-3B7E-4C6C-B148-E83B370D1154</key>
 		<dict>
 			<key>note</key>
 			<string>Center</string>
 			<key>xpos</key>
-			<real>1280</real>
+			<real>1285</real>
 			<key>ypos</key>
-			<real>1575</real>
+			<real>1830</real>
 		</dict>
 		<key>ED2BA858-527C-44E5-9FF2-D9421C2F823C</key>
 		<dict>
 			<key>xpos</key>
-			<real>865</real>
+			<real>870</real>
 			<key>ypos</key>
-			<real>1800</real>
+			<real>2055</real>
 		</dict>
 		<key>EEB61DAA-AC41-493F-9CA0-93678C6BCD3B</key>
 		<dict>
@@ -2086,9 +2314,9 @@ Keyboard shortcuts below are suggestions:
 		<key>F9ED3B81-132C-4B76-AFED-DC01089EDD0D</key>
 		<dict>
 			<key>xpos</key>
-			<real>865</real>
+			<real>870</real>
 			<key>ypos</key>
-			<real>2110</real>
+			<real>2365</real>
 		</dict>
 		<key>FE582004-9AD4-40DD-AB0B-13BEABC1B505</key>
 		<dict>
@@ -2097,9 +2325,9 @@ Keyboard shortcuts below are suggestions:
 			<key>note</key>
 			<string>Scale up window</string>
 			<key>xpos</key>
-			<real>65</real>
+			<real>70</real>
 			<key>ypos</key>
-			<real>2110</real>
+			<real>2365</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -2234,7 +2462,7 @@ Keyboard shortcuts below are suggestions:
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.2</string>
+	<string>1.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/Acidham/alfred-window-manager</string>
 </dict>
