@@ -11,7 +11,9 @@ Alfred Workflow to move/resize/position windows.
 
 ## Usage
 
-Keyboard shortcuts are suggestions:
+* Use keyword `wm` to invoke Window Manager
+
+### Keyboard shortcuts are suggestions:
 
 *  ⇧↓ : Move to next screen
 *  ⇧↑ : Move to previous screen
