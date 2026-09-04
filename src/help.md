@@ -1,5 +1,9 @@
 # Shortcut Quick Help
 
+* `wms` : Choose a connected display by name
+
+* `wm` : Window Manager actions, including Move to Main Display and Choose Display…
+
 * ⌃⌥ ↓ : Move to next screen
 
 * ⌃⌥ ↑ : Move to previous screen

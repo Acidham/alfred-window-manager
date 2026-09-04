@@ -1,0 +1,18 @@
+repos:
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.24.0
+    hooks:
+      - id: gitleaks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: detect-private-key
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+  - repo: local
+    hooks:
+      - id: detect-dotenv
+        name: Block .env files
+        entry: bash -c 'echo ".env files must not be committed." >&2; exit 1'
+        language: system
+        files: '(^|/)\.env(\.[^.]+)?$'

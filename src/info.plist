@@ -372,6 +372,30 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C3D76F8E-8B4D-4AA8-8543-3571B7B86D1C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>C5F6C91A-9A78-4456-B48D-15C864EBF3F0</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C6E5B48F-20C2-41B8-AB6A-956004AA7A77</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>C7B0B940-929D-4F2B-82F0-960A63E54DF8</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>5E6F5E3B-B9CB-449B-9724-E4E8B4F45CC1</key>
 		<array>
@@ -529,6 +553,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>C4E37429-5C87-4F4A-A8B1-997945C46D01</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>69CEBDAD-0632-4A61-9233-9F35F7E9F02C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>C76A989A-F196-41C9-BF7C-D85DE630794D</key>
 		<array>
 			<dict>
@@ -573,6 +610,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>ED2BA858-527C-44E5-9FF2-D9421C2F823C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E4C29A12-56CD-4F7D-AB91-8E21E204728A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C2D693D7-4D95-4A7B-8D8D-8133D3E087C1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1289,6 +1339,34 @@
 						<key>uid</key>
 						<string>A9FE0633-F3FF-4984-BE86-76C17050076E</string>
 					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>main_display</string>
+						<key>outputlabel</key>
+						<string>main display</string>
+						<key>uid</key>
+						<string>C5F6C91A-9A78-4456-B48D-15C864EBF3F0</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>choose_display</string>
+						<key>outputlabel</key>
+						<string>choose display</string>
+						<key>uid</key>
+						<string>C7B0B940-929D-4F2B-82F0-960A63E54DF8</string>
+					</dict>
 				</array>
 				<key>elselabel</key>
 				<string>else</string>
@@ -1312,7 +1390,7 @@
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"imagefile":"57fe5100ef9410f3441a2ca1bb46ab39f0435eda.png","title":"Window to the Left","arg":"left","subtitle":"Move Window to the Left"},{"imagefile":"3710a196aed79f46528e304a2ca475783bbcf9bc.png","title":"Window to the Right","arg":"right","subtitle":"Move window to the right side"},{"imagefile":"e5389b88a75180e20086e57918547322b29198a7.png","title":"Maximize Window","arg":"maximize","subtitle":"Maximize Window Size"},{"imagefile":"a490c551cb24b729c13a619b4c44013ea8612149.png","title":"Center Window","arg":"center_window","subtitle":"Center the window"},{"imagefile":"e23b79ac4deb3d200b49098d267238860aabde94.png","title":"Resize Top Half","arg":"top_half","subtitle":"Resize Window to top half"},{"imagefile":"5b9f7e45b02204566689a71266b82c2ff90ebb4c.png","title":"Resize Bottom Half","arg":"bottom_half","subtitle":"Resize window to bottom half"},{"imagefile":"9af31ca312e8a8f8df4550895eb0bd00ab8833d6.png","title":"Resize to Center Third","arg":"center_third","subtitle":"Resize Window to the center third"},{"imagefile":"63eac322363273d4675ef41369f1ed6b6ccbc3f4.png","title":"Resize to Left Third","arg":"left_third","subtitle":"Resize window to the Left third"},{"imagefile":"a50edbd9f159227363baf1f60ffd7f429e082ca0.png","title":"Resize to Two Thirds","arg":"center_two_thirds","subtitle":"Resize Window to two thirds"},{"imagefile":"8f62eda9639a39abec408417434adad0d44aeb51.png","title":"Resize to the Right Third","arg":"right_third","subtitle":"Resize window to the right third"},{"imagefile":"7cdf13b1d61e92bcb704cfff4ab90d18a385b88d.png","title":"Reset Window","arg":"reset_window","subtitle":"Reset Window to orginal size and position"},{"imagefile":"44752a501e5bca3e68636b10f072885dfb17ca8c.png","title":"Next Screen","arg":"next_screen","subtitle":"Move window to the next Screen"},{"imagefile":"33d2c0d0a19578ca7815b231d5d35c05de0a3649.png","title":"Previous Screen","arg":"previous_screen","subtitle":"Move Window to the previous screen"}]</string>
+				<string>[{"imagefile":"57fe5100ef9410f3441a2ca1bb46ab39f0435eda.png","title":"Window to the Left","arg":"left","subtitle":"Move Window to the Left"},{"imagefile":"3710a196aed79f46528e304a2ca475783bbcf9bc.png","title":"Window to the Right","arg":"right","subtitle":"Move window to the right side"},{"imagefile":"e5389b88a75180e20086e57918547322b29198a7.png","title":"Maximize Window","arg":"maximize","subtitle":"Maximize Window Size"},{"imagefile":"a490c551cb24b729c13a619b4c44013ea8612149.png","title":"Center Window","arg":"center_window","subtitle":"Center the window"},{"imagefile":"e23b79ac4deb3d200b49098d267238860aabde94.png","title":"Resize Top Half","arg":"top_half","subtitle":"Resize Window to top half"},{"imagefile":"5b9f7e45b02204566689a71266b82c2ff90ebb4c.png","title":"Resize Bottom Half","arg":"bottom_half","subtitle":"Resize window to bottom half"},{"imagefile":"9af31ca312e8a8f8df4550895eb0bd00ab8833d6.png","title":"Resize to Center Third","arg":"center_third","subtitle":"Resize Window to the center third"},{"imagefile":"63eac322363273d4675ef41369f1ed6b6ccbc3f4.png","title":"Resize to Left Third","arg":"left_third","subtitle":"Resize window to the Left third"},{"imagefile":"a50edbd9f159227363baf1f60ffd7f429e082ca0.png","title":"Resize to Two Thirds","arg":"center_two_thirds","subtitle":"Resize Window to two thirds"},{"imagefile":"8f62eda9639a39abec408417434adad0d44aeb51.png","title":"Resize to the Right Third","arg":"right_third","subtitle":"Resize window to the right third"},{"imagefile":"7cdf13b1d61e92bcb704cfff4ab90d18a385b88d.png","title":"Reset Window","arg":"reset_window","subtitle":"Reset Window to orginal size and position"},{"imagefile":"44752a501e5bca3e68636b10f072885dfb17ca8c.png","title":"Next Screen","arg":"next_screen","subtitle":"Move window to the next Screen"},{"imagefile":"33d2c0d0a19578ca7815b231d5d35c05de0a3649.png","title":"Previous Screen","arg":"previous_screen","subtitle":"Move Window to the previous screen"},{"title":"Move to Main Display","arg":"main_display","subtitle":"Move the focused window to macOS Main Display"},{"title":"Choose Display…","arg":"choose_display","subtitle":"Choose a connected display dynamically"}]</string>
 				<key>keyword</key>
 				<string>wm</string>
 				<key>matchmode</key>
@@ -2167,6 +2245,157 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>wms</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading connected displays…</string>
+				<key>script</key>
+				<string>./bin/display-manager list</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Choose a connected display</string>
+				<key>title</key>
+				<string>Move Window to Display</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>E4C29A12-56CD-4F7D-AB91-8E21E204728A</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./bin/display-manager move "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C2D693D7-4D95-4A7B-8D8D-8133D3E087C1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./bin/display-manager move primary</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C3D76F8E-8B4D-4AA8-8543-3571B7B86D1C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>main_display</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>C4E37429-5C87-4F4A-A8B1-997945C46D01</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>/usr/bin/osascript -e 'tell application id "com.runningwithcrayons.Alfred" to search "wms "'</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C6E5B48F-20C2-41B8-AB6A-956004AA7A77</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string># Window Manager
@@ -2562,6 +2791,27 @@ Keyboard shortcuts below are suggestions:
 			<key>ypos</key>
 			<real>835</real>
 		</dict>
+		<key>C2D693D7-4D95-4A7B-8D8D-8133D3E087C1</key>
+		<dict>
+			<key>xpos</key>
+			<real>280</real>
+			<key>ypos</key>
+			<real>780</real>
+		</dict>
+		<key>C3D76F8E-8B4D-4AA8-8543-3571B7B86D1C</key>
+		<dict>
+			<key>xpos</key>
+			<real>750</real>
+			<key>ypos</key>
+			<real>560</real>
+		</dict>
+		<key>C6E5B48F-20C2-41B8-AB6A-956004AA7A77</key>
+		<dict>
+			<key>xpos</key>
+			<integer>750</integer>
+			<key>ypos</key>
+			<integer>620</integer>
+		</dict>
 		<key>C76A989A-F196-41C9-BF7C-D85DE630794D</key>
 		<dict>
 			<key>colorindex</key>
@@ -2615,6 +2865,13 @@ Keyboard shortcuts below are suggestions:
 			<real>1180</real>
 			<key>ypos</key>
 			<real>2040</real>
+		</dict>
+		<key>E4C29A12-56CD-4F7D-AB91-8E21E204728A</key>
+		<dict>
+			<key>xpos</key>
+			<real>20</real>
+			<key>ypos</key>
+			<real>780</real>
 		</dict>
 		<key>E71F89BE-1869-4DAF-BCDD-CA883A26CECF</key>
 		<dict>
@@ -2808,7 +3065,7 @@ Keyboard shortcuts below are suggestions:
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>2.0</string>
+	<string>2.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/Acidham/alfred-window-manager</string>
 </dict>
