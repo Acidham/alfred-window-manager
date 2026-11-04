@@ -795,35 +795,48 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>tasksettings</key>
-				<dict/>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.preset</string>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>/usr/bin/osascript -l JavaScript window-preset.js half-left</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>561D6C7F-E66D-40EB-8814-4E275EED1214</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>preset</key>
-					<string>half-right</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.preset</string>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>/usr/bin/osascript -l JavaScript window-preset.js half-right</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>7CFADCC9-E898-4C75-9703-919B361362A6</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -861,20 +874,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>preset</key>
-					<string>twothirds-centrewidth</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.preset</string>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>/usr/bin/osascript -l JavaScript window-preset.js twothirds-centrewidth</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>980F8228-5E0B-479A-819C-653F9F8B8DF5</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1089,20 +1107,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>preset</key>
-					<string>maximise</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.preset</string>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>/usr/bin/osascript -l JavaScript window-preset.js maximise</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>CFAD3BF2-AB4B-4DA4-ADD9-3C68698ABA6E</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1336,20 +1359,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>preset</key>
-					<string>third-left</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.preset</string>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>/usr/bin/osascript -l JavaScript window-preset.js third-left</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>27579C3A-5704-4D88-947A-2036510ADD3F</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1387,20 +1415,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>preset</key>
-					<string>third-centrewidth</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.preset</string>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>/usr/bin/osascript -l JavaScript window-preset.js third-centrewidth</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>8D92843D-8E75-4B98-86C8-162FA0D973B2</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1438,20 +1471,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>preset</key>
-					<string>third-right</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.preset</string>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>/usr/bin/osascript -l JavaScript window-preset.js third-right</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>56EF0394-FE08-4032-AD30-003CED7CCF99</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1489,20 +1527,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>preset</key>
-					<string>half-top</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.preset</string>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>/usr/bin/osascript -l JavaScript window-preset.js half-top</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>C979B2FE-F00D-4D28-A18B-93715B910C9D</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1540,20 +1583,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>preset</key>
-					<string>half-bottom</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.preset</string>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>/usr/bin/osascript -l JavaScript window-preset.js half-bottom</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>0D1E46BB-6FEB-4A8F-8747-0A73805CF22D</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1624,20 +1672,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>preset</key>
-					<string>centre</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/window-management/windows.current.bounds.set.preset</string>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>/usr/bin/osascript -l JavaScript window-preset.js centre</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>E90EB173-3B7E-4C6C-B148-E83B370D1154</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
